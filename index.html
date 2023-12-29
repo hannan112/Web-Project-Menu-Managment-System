@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>menu Management System</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>menu Management System</h1>
+
+    <div id="menuForm">
+      <h2>Add New menu</h2>
+      <label for="title">Title:</label>
+      <input type="text" id="dishName" placeholder="Enter dishName">
+
+      <label for="price">price:</label>
+      <input type="number" id="price" placeholder="Enter price">
+
+      <button onclick="addmenu()">Add menu</button>
+    </div>
+
+    <h2>menu List</h2>
+    <ul id="menuList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
